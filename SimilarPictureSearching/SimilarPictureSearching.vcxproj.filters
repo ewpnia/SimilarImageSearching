@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="日历">
+      <UniqueIdentifier>{f5a7e1ab-c6fb-4e8e-aae3-4df4286a7b37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="窗口框架">
+      <UniqueIdentifier>{00523f4b-84b2-4643-9c9b-78a17e777f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="公用资源">
+      <UniqueIdentifier>{63ebdf65-ed42-4990-9986-6517836a3161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="窗口框架\头文件">
+      <UniqueIdentifier>{73d98f68-b4f2-4172-8d9e-c2c301497664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="公用资源\头文件">
+      <UniqueIdentifier>{1f3cc4d7-1163-4d66-94d4-3e58bbfb136c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="相似图像检索">
+      <UniqueIdentifier>{c2b0b317-cf50-437f-863e-d4b031480e3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="相似图像检索\头文件">
+      <UniqueIdentifier>{c1ae99ae-a1da-44aa-9918-e215b42d1663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="匹配算法">
+      <UniqueIdentifier>{3eafbd36-a7df-4312-b5d1-0ffa51aae43f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="匹配算法\KD-Tree">
+      <UniqueIdentifier>{8d85a299-6cbb-4556-aaa2-e2f857852cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="图像处理">
+      <UniqueIdentifier>{19b2293d-ee23-42c4-869e-1f07bd72f3ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="图像处理\SIFT">
+      <UniqueIdentifier>{6ce457be-977d-4f9d-8412-1bdc0856fe21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="图像处理\SIFT\头文件">
+      <UniqueIdentifier>{899f9025-2e9d-4891-b98e-287bf7f5e55e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="图像处理\图片显示">
+      <UniqueIdentifier>{613e3e76-00ee-457d-87c6-d3883b78a87b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="图像处理\SURF">
+      <UniqueIdentifier>{e0b6e900-3bf5-409d-8551-16304e97af30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="窗口框架\SURF对话框">
+      <UniqueIdentifier>{0f39e2e4-8ca5-4a97-8b50-716f39c7f7c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="窗口框架\SURF对话框\头文件">
+      <UniqueIdentifier>{dd252716-0251-4894-b8a7-78d4ba14009a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="窗口框架\SIFT对话框">
+      <UniqueIdentifier>{f1ba93fc-1f47-4961-a083-205422ab9b19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\output_wnd.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\output_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_wnd.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\nav_large.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\nav_large_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\pages.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\pages_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\pages_small.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\pages_small_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\info.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\buttons.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\filelarge.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\filesmall.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\main.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\writelarge.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\writesmall.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ribbon.mfcribbon-ms">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SimilarPictureSearching.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SimilarPictureSearchingDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SimilarPictureSearching.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SIFT SURF.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SPS16.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SPS32.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\128.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CalendarBar.h">
+      <Filter>日历</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>窗口框架\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>窗口框架\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>窗口框架\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>窗口框架\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>公用资源\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>公用资源\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>公用资源\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SimilarPictureSearching.h">
+      <Filter>相似图像检索\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SimilarPictureSearchingDoc.h">
+      <Filter>相似图像检索\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SimilarPictureSearchingView.h">
+      <Filter>相似图像检索\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sift\imgfeatures.h">
+      <Filter>图像处理\SIFT\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sift\xform.h">
+      <Filter>图像处理\SIFT\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sift\kdtree.h">
+      <Filter>图像处理\SIFT\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sift\minpq.h">
+      <Filter>图像处理\SIFT\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sift\sift.h">
+      <Filter>图像处理\SIFT\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sift\utils.h">
+      <Filter>图像处理\SIFT\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ini.h">
+      <Filter>相似图像检索\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="KDTmatch.h">
+      <Filter>匹配算法\KD-Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureEx.h">
+      <Filter>图像处理\图片显示</Filter>
+    </ClInclude>
+    <ClInclude Include="SURFDialog1.h">
+      <Filter>窗口框架\SURF对话框\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AddSheet.h">
+      <Filter>窗口框架\SURF对话框\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SURFDialog4.h">
+      <Filter>窗口框架\SURF对话框\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SURFDialog2.h">
+      <Filter>窗口框架\SURF对话框\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SURFDialog3.h">
+      <Filter>窗口框架\SURF对话框\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SURF.h">
+      <Filter>图像处理\SURF</Filter>
+    </ClInclude>
+    <ClInclude Include="SURFProgressDialog.h">
+      <Filter>窗口框架\SURF对话框\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFunctions.h">
+      <Filter>相似图像检索\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SiftDialog.h">
+      <Filter>窗口框架\SIFT对话框</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CalendarBar.cpp">
+      <Filter>日历</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>窗口框架</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>窗口框架</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>窗口框架</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>窗口框架</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>公用资源</Filter>
+    </ClCompile>
+    <ClCompile Include="SimilarPictureSearching.cpp">
+      <Filter>相似图像检索</Filter>
+    </ClCompile>
+    <ClCompile Include="SimilarPictureSearchingView.cpp">
+      <Filter>相似图像检索</Filter>
+    </ClCompile>
+    <ClCompile Include="SimilarPictureSearchingDoc.cpp">
+      <Filter>相似图像检索</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sift\imgfeatures.c">
+      <Filter>图像处理\SIFT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sift\xform.c">
+      <Filter>图像处理\SIFT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sift\kdtree.c">
+      <Filter>图像处理\SIFT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sift\minpq.c">
+      <Filter>图像处理\SIFT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sift\sift.c">
+      <Filter>图像处理\SIFT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sift\utils.c">
+      <Filter>图像处理\SIFT</Filter>
+    </ClCompile>
+    <ClCompile Include="Ini.cpp">
+      <Filter>相似图像检索</Filter>
+    </ClCompile>
+    <ClCompile Include="KDTmatch.c">
+      <Filter>匹配算法\KD-Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureEx.cpp">
+      <Filter>图像处理\图片显示</Filter>
+    </ClCompile>
+    <ClCompile Include="AddSheet.cpp">
+      <Filter>窗口框架\SURF对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="SURFDialog4.cpp">
+      <Filter>窗口框架\SURF对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="SURFDialog2.cpp">
+      <Filter>窗口框架\SURF对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="SURFDialog3.cpp">
+      <Filter>窗口框架\SURF对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="SURFDialog1.cpp">
+      <Filter>窗口框架\SURF对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="SURFProgressDialog.cpp">
+      <Filter>窗口框架\SURF对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFunctions.cpp">
+      <Filter>相似图像检索</Filter>
+    </ClCompile>
+    <ClCompile Include="SiftDialog.cpp">
+      <Filter>窗口框架\SIFT对话框</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SimilarPictureSearching.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

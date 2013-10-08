@@ -1,0 +1,6 @@
+[偐义I]
+openDir=D:\traning_city\1
+saveDir=D:\traning_city\test
+[PPINI]
+openDir=
+saveDir=D:\0test\新建文件夹
