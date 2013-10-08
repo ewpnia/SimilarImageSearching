@@ -1,9 +1,10 @@
 SimilarImageSearching
-====================================================================================
 
-A program used to search the similar image in folders. Developed with OpenCV.
+=========================================================================================
 
-====================================================================================
+A program used to search the similar image in folders. Developed with OpenCV and VS2010.
+
+=========================================================================================
 
 
 Download and Install OpenCV here:
